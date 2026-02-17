@@ -1,0 +1,5 @@
+streamlit==1.54.0
+pandas==2.3.3
+st-gsheets-connection==0.1.0
+plotly==6.5.2
+watchdog==6.0.0

@@ -1,0 +1,20 @@
+[theme]
+# Cor primária (Botões, seleções, foco) - Escolha a cor da sua igreja aqui
+primaryColor = "#1E88E5" 
+
+# Cor de fundo (Background) do conteúdo principal
+backgroundColor = "#033257"
+
+# Cor de fundo da barra lateral (Sidebar)
+secondaryBackgroundColor = "#2f4a62"
+
+# Cor do texto
+textColor = "#adbbc7"
+
+# Fonte (sans serif é mais moderna e fácil de ler)
+font = "sans serif"
+
+[server]
+# Isso remove aquele menu de "Made with Streamlit" do rodapé, fica mais limpo
+headless = false
+maxUploadSize = 200

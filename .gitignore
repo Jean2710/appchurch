@@ -1,0 +1,29 @@
+# --- PYTHON ---
+# Arquivos compilados (bytecodes) que não devem subir
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- AMBIENTE VIRTUAL ---
+# Não subimos a pasta do ambiente, pois cada dev cria a sua
+venv/
+env/
+.env
+
+# --- STREAMLIT ---
+# CRÍTICO: Nunca suba suas senhas (secrets.toml)
+.streamlit/secrets.toml
+
+# --- BANCO DE DADOS ---
+# CRÍTICO: Não suba o banco com os dados reais da igreja!
+*.db
+*.sqlite3
+igreja.db
+
+# --- SISTEMA OPERACIONAL ---
+.DS_Store
+Thumbs.db
+
+# --- IDE (Opcional, mas recomendado) ---
+.vscode/
+.idea/
