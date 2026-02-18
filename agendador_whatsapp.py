@@ -132,8 +132,8 @@ if __name__ == "__main__":
     print("📅 Configurado: Grupo às 13:00 | Liderança às 13:05")
 
     # Agendamento das tarefas
-    schedule.every().day.at("13:00").do(disparar_comunicado_grupo)
-    schedule.every().day.at("13:01").do(disparar_tarefas_individuais)
+    schedule.every().day.at("14:10").do(disparar_comunicado_grupo)
+    schedule.every().day.at("14:11").do(disparar_tarefas_individuais)
 
     # Loop principal de execução
     while True:
