@@ -18,3 +18,5 @@ font = "sans serif"
 # Isso remove aquele menu de "Made with Streamlit" do rodapé, fica mais limpo
 headless = false
 maxUploadSize = 200
+[server]
+fileWatcherType = "none"
